@@ -84,12 +84,16 @@ header img {
   align-items: center;
 }
 .monthly-items {
+  row-gap: 10px;
+  column-gap: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
   width: 1000px;
+  align-content: center;
+  padding: 69px;
 }
 .monthly-items img {
   display: block;
@@ -107,8 +111,7 @@ header img {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: auto;
-  
+  margin: auto;  
 }
 .locations-background img{
   height: 500px;
