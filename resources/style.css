@@ -133,6 +133,7 @@ header img {
   margin-bottom: 15px;
   background-color: transparent;
   font-weight: bold;
+  z-index: 1;
 }
 .location1 {
   display: flex;
