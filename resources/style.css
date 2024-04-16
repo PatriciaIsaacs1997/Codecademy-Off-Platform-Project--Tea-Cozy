@@ -1,0 +1,169 @@
+/*RESET*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*UTILITIES*/
+
+html * {
+  font-family: Arial, Helvetica, sans-serif;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+html {
+  font-size: 22px;
+}
+main {
+  padding: 16px;
+}
+
+/*HEADER AND NAV STYLING*/
+
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+nav a {
+  display: flex;
+  color: seashell;
+  cursor: pointer;
+  margin: 10px;
+}
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  z-index: 1;
+  top: 0;
+  padding: auto;
+}
+header img {
+  display: flex;
+  justify-content: flex-start;
+  height: 50px;
+  margin-left: 10px;
+}
+.header-background img {
+  height: 700px;
+  width: 1200px;
+  padding: 69px;
+}
+.mission-overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  top: 30%;
+  width: 100%;
+  background-color: black;
+  color: seashell;
+}
+
+/*FEATURED TEA SECTION*/
+
+.featured-tea {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+.monthly-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+}
+.monthly-items img {
+  display: block;
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+/*LOCATIONS SECTION*/
+
+.locations {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  
+}
+.locations-background img{
+  height: 500px;
+  width: 1200px;
+  padding: 69px;
+  
+}
+.location-info {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  opacity: 1;  
+}
+.location-header {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  background-color: transparent;
+  font-weight: bold;
+  align-self: flex-start;
+}
+.location1 {
+  width: 300px;
+  background-color: black;
+  margin: 40px;
+}
+.location2 {
+  width: 300px;
+  background-color: black;
+  margin: 40px;
+}
+.location3 {
+  width: 300px;
+  background-color: black;
+  margin: 40px;
+}
+
+/*FOOTER*/
+
+.contact-info {
+  align-items: center;
+  color: seashell;
+  height: 200px;
+}
+.contact-info a {
+  color: seashell;
+  text-decoration: none;
+  cursor: pointer;
+}
+.copyright {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
