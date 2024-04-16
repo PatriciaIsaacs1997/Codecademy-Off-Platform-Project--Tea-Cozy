@@ -83,6 +83,9 @@ header img {
   align-content: center;
   align-items: center;
 }
+.tea-header {
+  margin-bottom: -50px;
+}
 .monthly-items {
   row-gap: 10px;
   column-gap: 40px;
@@ -116,8 +119,6 @@ header img {
 .locations-background img{
   height: 500px;
   width: 1200px;
-  padding: 69px;
-  
 }
 .location-info {
   position: absolute;
