@@ -127,27 +127,28 @@ header img {
 .location-header {
   position: absolute;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
   margin-bottom: 15px;
   background-color: transparent;
   font-weight: bold;
-  align-self: flex-start;
 }
 .location1 {
   width: 300px;
   background-color: black;
-  margin: 40px;
+  margin-right: 20px;
 }
 .location2 {
   width: 300px;
   background-color: black;
-  margin: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .location3 {
   width: 300px;
   background-color: black;
-  margin: 40px;
+  margin-left: 20px;
 }
 
 /*FOOTER*/
